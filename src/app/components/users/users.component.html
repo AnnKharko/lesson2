@@ -1,0 +1,5 @@
+ <app-user *ngFor="let user of users" [user]="user" (bubbleUp)="getBubble($event)"></app-user>
+
+ <h2>
+   <app-user [user]="singleUser"></app-user>
+ </h2>
